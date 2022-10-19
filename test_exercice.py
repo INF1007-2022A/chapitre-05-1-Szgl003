@@ -67,7 +67,7 @@ class TestExercice(unittest.TestCase):
                   [20, 22, 23, 24, 18, 75, 51, 49, 100, 18, 20, 20], [70, 50, 26, 28], [75, 50, 18, 25],
                   [13, 25, 80, 15], [20, 30, 40, 50, 60], [75, 50, 100, 28]]
 
-        answer = [False, True, False, False, True, True, True, True, False]
+        answer = [False, True, True, False, True, True, True, True, False]
 
         output = exercice.verify_ages(groups)
 
